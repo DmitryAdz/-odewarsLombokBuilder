@@ -64,7 +64,7 @@ public class People {
 	
 	String GREET="hello";
 	
-	public static class builder {
+	public static class Builder {
 		
 		private int age = 0;
 		private String name = "";
@@ -72,32 +72,32 @@ public class People {
 		private String city = "";
 		private String job = "";
 		
-		public builder() {
+		public Builder() {
 		
 		}
 		
-		public builder age(int value) {
+		public Builder age(int value) {
 			System.out.println("builder");
 			age = value;
 			return this;
 		}
 		
-		public builder name(String value) {
+		public Builder name(String value) {
 			name = value;
 			return this;
 		}
 		
-		public builder lastName(String value) {
+		public Builder lastName(String value) {
 			lastName = value;
 			return this;
 		}
 		
-		public builder city(String value) {
+		public Builder city(String value) {
 			city = value;
 			return this;
 		}
 		
-		public builder job(String value) {
+		public Builder job(String value) {
 			job = value;
 			return this;
 		}
@@ -107,7 +107,7 @@ public class People {
 		}
 	}
 	
-	private People(builder builder) {
+	private People(Builder builder) {
 		age = builder.age;
 		name = builder.name;
 		lastName = builder.lastName;

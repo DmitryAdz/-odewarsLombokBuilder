@@ -4,7 +4,7 @@ public class RunnerMain {
 
 	public static void main(String[] args) {
 		
-		People people = new People.builder()
+		People people = new People.Builder()
 				.name("Adam")
 				.lastName("Savage")
 				.age(25)
