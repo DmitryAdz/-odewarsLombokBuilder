@@ -14,7 +14,5 @@ public class RunnerMain {
 		
 		System.out.println(people.toString());
 		System.out.println(people.greet());
-
 	}
-
 }
