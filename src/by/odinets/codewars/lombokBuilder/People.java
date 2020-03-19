@@ -1,6 +1,5 @@
 package by.odinets.codewars.lombokBuilder;
 
-
 /*
  * Having this class:
 

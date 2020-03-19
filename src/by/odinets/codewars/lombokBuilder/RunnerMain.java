@@ -13,6 +13,6 @@ public class RunnerMain {
 				.build();
 		
 		System.out.println(people.toString());
-		System.out.println(people.greet());
+		//System.out.println(people.greet());
 	}
 }
